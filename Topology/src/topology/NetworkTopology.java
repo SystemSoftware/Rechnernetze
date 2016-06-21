@@ -84,7 +84,7 @@ public abstract class NetworkTopology {
 	 * Checks whether or not this edge is tagged as removed
 	 * @return True if the internal removal counter is greater than zero
 	 */
-	public boolean isTaggesAsRemoved() {
+	public boolean isTaggedAsRemoved() {
 	    return levelOfRemoval > 0;
 	}
 	/**
